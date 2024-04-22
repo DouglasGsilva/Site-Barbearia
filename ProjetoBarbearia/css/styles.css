@@ -1,0 +1,29 @@
+.navbar{
+    background-color: #f2f2f2;
+    height: 80px;
+}
+body{
+    background-color: rgb(71, 163, 133);
+    margin: 0px;
+}
+.container.fluid{
+    
+}
+.navbar-brand{
+margin: auto;
+padding: 0px;
+}
+.img{
+   position: relative;
+}
+.btn btn-danger{
+    position: absolute;
+    top: 50%;
+    position: absolute;
+}
+img{
+background-position: 100px;
+width: 100%;
+height: 500px;
+position: relative;
+}
