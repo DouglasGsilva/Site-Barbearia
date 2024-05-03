@@ -1,7 +1,6 @@
-let i = 1
- function modal(){
-   return(
-    console.log(i)
-   ) 
-}
-console.log(modal())
+document
+  .getElementById("agendarCorteBtn")
+  .addEventListener("click", function () {
+    var cadModal = new bootstrap.Modal(document.getElementById("cadModal"));
+    cadModal.show();
+  });

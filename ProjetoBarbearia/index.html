@@ -33,6 +33,7 @@
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Cadastrar</a>
                 </li>
+                
                  <li class="nav-item">
                   <a class="nav-link" href="#">Contato</a>
                 </li> 
@@ -63,9 +64,27 @@
       </nav>
       <img src="./img/imagem main.jpg" class="img-fluid" alt="...">
       <h1 id="nome-banner">Denis Barbeiro</h1>
-      <div class="center-btn" onclick="modal()">
-        <button type="button" class="btn btn-danger" >Agende já seu corte !</button>
+      <div class="center-btn"">
+        <button id="agendarCorteBtn" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#cadastroModal">Agende já seu corte !</button>
       </div>
+     <div class="modal" id="cadastroModal" tabindex="-1" aria-labelledby="cadastroModalLabel" aria-hidden="true">
+      <div class="Modal-Dialog">
+        <div class="modal-Content">
+  <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn-close"></button>
+    <div class="modal-body">
+      <p>Email:</p>
+      <input class="form-control form-control-sm" type="text" placeholder="Digite seu Email!" aria-label=".form-control-lg example">
+      <p>Nome:</p>
+      <input class="form-control" type="text" placeholder="Digite seu nome!" aria-label="default input example">
+      <p>Senha:</p>
+      <input class="form-control form-control-sm" type="text" placeholder="Digite sua senha!" aria-label=".form-control-sm example">
+      <p>Confirme sua senha:</p>
+      <input class="form-control form-control-sm" type="text" placeholder="Confirme sua senha!" >
+    </div>
+        </div>
+       </div>
+     </div>
+
       <h1 id="titulo-horario">Horário</h1>
       <div id="linha-horario"></div>
       <div class="horario">
@@ -145,6 +164,7 @@
           </button>
         </div>
       </div>
-      <div>asdadasdasd</div>
+      
+      
 </body>
 </html>
