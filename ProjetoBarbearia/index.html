@@ -13,6 +13,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Space+Grotesk:wght@300..700&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+<script src="./js/main.js" defer></script>
 </head>
 <body>
     <nav class="navbar">
@@ -65,12 +66,12 @@
       <img src="./img/imagem main.jpg" class="img-fluid" alt="...">
       <h1 id="nome-banner">Denis Barbeiro</h1>
       <div class="center-btn"">
-        <button id="agendarCorteBtn" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#cadastroModal">Agende já seu corte !</button>
+        <button id="agendarCorteBtn" type="button" class="btn btn-danger" >Agende já seu corte !</button>
       </div>
-     <div class="modal" id="cadastroModal" tabindex="-1" aria-labelledby="cadastroModalLabel" aria-hidden="true">
-      <div class="Modal-Dialog">
         <div class="modal-Content">
-  <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn-close"></button>
+  <button class="btn-fechar"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+  </svg></button>
     <div class="modal-body">
       <p>Email:</p>
       <input class="form-control form-control-sm" type="text" placeholder="Digite seu Email!" aria-label=".form-control-lg example">
@@ -80,10 +81,11 @@
       <input class="form-control form-control-sm" type="text" placeholder="Digite sua senha!" aria-label=".form-control-sm example">
       <p>Confirme sua senha:</p>
       <input class="form-control form-control-sm" type="text" placeholder="Confirme sua senha!" >
+
+      <button class="btn-cad">Cadastrar</button>
     </div>
         </div>
-       </div>
-     </div>
+  
 
       <h1 id="titulo-horario">Horário</h1>
       <div id="linha-horario"></div>
