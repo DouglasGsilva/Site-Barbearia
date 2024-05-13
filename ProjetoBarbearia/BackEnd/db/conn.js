@@ -5,7 +5,7 @@ async function main() {
     mongoose.set("strictQuery", true);
 
     await mongoose.connect(
-      "mongodb+srv://sdouglas:Painho123@1@databasebarbearia.uolz7gq.mongodb.net/?retryWrites=true&w=majority&appName=DataBaseBarbearia"
+      "mongodb+srv://sdouglas968:1GaNhnCRAzvWoRLB@cluster0.v21x35v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     );
 
     console.log("Conectado ao banco!");
@@ -15,3 +15,4 @@ async function main() {
 }
 
 module.exports = main;
+//1GaNhnCRAzvWoRLB

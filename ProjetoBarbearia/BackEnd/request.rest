@@ -1,0 +1,18 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name":"Denison",
+    "email":"sopralolt@gmail.com",
+    "password":"aduh42314f93",
+    "confirmPassword":"aduh42314f93"
+}
+
+###
+
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/66427f8186cecc8a2b360845
+###
+DELETE http://localhost:3000/api/services/66427f8186cecc8a2b360845
