@@ -76,21 +76,22 @@
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
             <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
           </svg></button>
-            <div class="modal-body">
+            <form class="modal-body" id="cadastro-form">
               <p>Digite suas informações:</p>
               <p>Email:</p>
-              <input class="form-control form-control-sm" type="text" placeholder="Digite seu Email!" aria-label=".form-control-lg example">
+              <input id="input-email" class="form-control form-control-sm" type="text" placeholder="Digite seu Email!" aria-label=".form-control-lg example">
               <p>Nome:</p>
-              <input class="form-control" type="text" placeholder="Digite seu nome!" aria-label="default input example">
+              <input id="input-nome" class="form-control" type="text" placeholder="Digite seu nome!" aria-label="default input example">
               <p>Senha:</p>
-              <input class="form-control form-control-sm" type="text" placeholder="Digite sua senha!" aria-label=".form-control-sm example">
+              <input id="input-password" class="form-control form-control-sm" type="password" placeholder="Digite sua senha!" aria-label=".form-control-sm example">
               <p>Confirme sua senha:</p>
-              <input class="form-control form-control-sm" type="text" placeholder="Confirme sua senha!" >
+              <input id="input-confirmpsw" class="form-control form-control-sm" type="password" placeholder="Confirme sua senha!" >
         
-              <button id="btn-cad">Cadastrar</button>
-            </div>
+              <input type="submit" value="Cadastrar">
+            </form>
                 </div>
       </div>
+      
         
   
 

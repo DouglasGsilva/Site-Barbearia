@@ -15,4 +15,14 @@ GET http://localhost:3000/api/services
 ###
 GET http://localhost:3000/api/services/66427f8186cecc8a2b360845
 ###
-DELETE http://localhost:3000/api/services/66427f8186cecc8a2b360845
+DELETE http://localhost:3000/api/services/6643c46ab363e8a48c676ccb
+###
+PUT  http://localhost:3000/api/services/6642730ecec4a2e7b90d9d67
+Content-Type: application/json
+
+{
+    "name":"Douglas",
+    "email":"teste@gmail.com",
+    "password":"123",
+    "confirmPassword":"123"
+}
