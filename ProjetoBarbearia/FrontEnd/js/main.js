@@ -36,6 +36,13 @@ async function addCadastro(cadastro) {
       "Content-Type": "application/json",
     },
   });
+
+  if (response.ok) {
+    modal.style.display = "none";
+    fade.style.display = "none";
+  }
+
+  document.querySelector("#nomeLogin").innerText = inputNome.value;
 }
 
 cadform.addEventListener("submit", (e) => {
