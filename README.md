@@ -1,5 +1,24 @@
-#Denis Barbearia 
-## Fiz esta Landing Page para uma barbearia da minha cidade.
-### Toda a parte de Front End foi feita com HTML E CSS.
-### A parte de JavaSript foi ultilizada para o DOM e para fazer requisições API.
-### A parte de Back End foi feita com MongoDb ultilizando o mongoDB atlas.
+## Denis Barbearia ✂️
+## Fiz esta Landing Page para uma Barbearia da minha cidade.
+---
+### Toda a parte de Front End foi feita com:
+<div style="display: inline_block"><br>
+  <img align="center" alt="Rafa-HTML" height="30" width="90" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  E
+  <img align="center" alt="Rafa-CSS" height="30" width="90" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+</div>
+          
+### A parte do DOM e das requisições API foi feita com:
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Doug-JavaScript" height="30" width="120" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+</div>
+
+### E a parte de API/Back End foi feita com:
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Doug-JavaScript" height="30" width="120" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
+    <img align="center" alt="Doug-JavaScript" height="30" width="120" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+  E
+   <img align="center" alt="Doug-JavaScript" height="30" width="120" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+</div>
