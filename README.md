@@ -1,5 +1,5 @@
 ## Denis Barbearia ✂️
-## Fiz esta Landing Page para uma Barbearia da minha cidade.
+## Landing Page para uma Barbearia da minha cidade.
 ---
 ### Toda a parte de Front End foi feita com:
 <div style="display: inline_block"><br>
@@ -14,7 +14,7 @@
   <img align="center" alt="Doug-JavaScript" height="30" width="120" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 </div>
 
-### E a parte de API/Back End foi feita com:
+## E a parte de API/Back End foi feita com:
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Doug-JavaScript" height="30" width="120" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
@@ -22,3 +22,10 @@
   E
    <img align="center" alt="Doug-JavaScript" height="30" width="120" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 </div>
+
+# Aqui fica o video do Site funcionando !!
+---
+
+
+
+
