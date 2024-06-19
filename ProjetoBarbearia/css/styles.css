@@ -378,9 +378,6 @@ body {
     margin-left: 15px;
   }
 
-  .navbar-toggler {
-  }
-
   #nome-banner {
     position: absolute;
     text-align: center;
@@ -460,6 +457,7 @@ body {
   }
   .carousel slide {
     width: 300px;
+    background-color: #08f557;
   }
 
   .biography p {
@@ -469,15 +467,55 @@ body {
   }
 
   .biography {
-    background-color: #08f557;
     height: 100%;
     width: 300px;
     margin-left: 10px;
     margin-top: 10px;
   }
   .d-block {
-    width: 10px;
-    height: 500px;
+    width: 210px;
+    height: 300px;
     background-color: #ffffff;
+    margin-left: 53px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  .carousel-inner {
+    width: 310px;
+    height: 300px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-control-prev {
+    margin-left: 35px;
+  }
+  .carousel-control-next {
+    margin-right: 110px;
+  }
+  .biography h2 {
+    font-size: 45px;
+  }
+
+  .title-imagens h1 {
+    font-size: 25px;
+  }
+  .fotos {
+    height: 200px;
+  }
+
+  .carousel-photo {
+    width: 260px;
+    margin-right: 105px;
+  }
+  #centerFinalText {
+    background-color: #000;
+  }
+  .modal-Content {
+    left: 7%;
+  }
+  #height {
+    height: 200px;
   }
 }
