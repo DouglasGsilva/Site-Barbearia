@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "ProjetoBarbearia/controllers/serviceController.js",
+      "src": "/conn.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "(.*)",
-      "dest": "ProjetoBarbearia/routes/services.js"
+      "src": "/(.*)",
+      "dest": "/"
     }
   ]
 }
