@@ -171,9 +171,8 @@ body {
   margin-right: 80px;
   margin-top: 10px;
 }
-.carousel slide {
+.carousel-slide {
   width: 300px;
-  background-color: #08f557;
 }
 .d-block {
   width: 400px;
@@ -352,7 +351,7 @@ body {
   margin-left: 5px;
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 0px) and (max-width: 320px) {
   .navbar {
     width: 100%;
     height: 105px;
@@ -462,9 +461,8 @@ body {
     height: 100%;
     display: grid;
   }
-  .carousel slide {
+  .carousel-slide {
     width: 300px;
-    background-color: #08f557;
   }
 
   .biography p {
@@ -533,5 +531,11 @@ body {
   }
   #height {
     height: 200px;
+  }
+  #carouselExampleDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;
   }
 }
