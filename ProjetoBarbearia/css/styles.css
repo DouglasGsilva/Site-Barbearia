@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
   background-color: #ffffff;
   height: 160px;
@@ -385,6 +391,7 @@ body {
     color: #000;
     left: 25px;
     top: 180px;
+    height: 50px;
   }
 
   .center-btn {
@@ -493,6 +500,8 @@ body {
   }
   .carousel-control-next {
     margin-right: 110px;
+    display: flex;
+    justify-content: center;
   }
   .biography h2 {
     font-size: 45px;
@@ -510,7 +519,14 @@ body {
     margin-right: 105px;
   }
   #centerFinalText {
-    background-color: #000;
+    font-size: 15px;
+    text-align: center;
+  }
+  .svg-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
   }
   .modal-Content {
     left: 7%;
