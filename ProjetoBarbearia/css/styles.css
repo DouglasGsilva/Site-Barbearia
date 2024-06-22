@@ -453,7 +453,7 @@ body {
   }
   #barba-img {
     margin-top: 10px;
-    width: 200px;
+    max-width: 97px;
     transform: rotate(0deg);
   }
   .content-bio-slide {
@@ -494,12 +494,18 @@ body {
   }
 
   .carousel-control-prev {
-    margin-left: 35px;
-  }
-  .carousel-control-next {
-    margin-right: 110px;
     display: flex;
     justify-content: center;
+    left: 13%;
+    top: 70%;
+    height: 30px;
+  }
+  .carousel-control-next {
+    display: flex;
+    justify-content: center;
+    left: 70%;
+    top: 70%;
+    height: 30px;
   }
   .biography h2 {
     font-size: 45px;
@@ -522,9 +528,16 @@ body {
   }
   .svg-center {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    max-width: 300px;
+    margin: auto;
+    width: 220px;
+  }
+  #sizeInstagram {
+    width: 35px;
+  }
+  #sizeWhats {
+    width: 35px;
   }
   .modal-Content {
     left: 7%;
