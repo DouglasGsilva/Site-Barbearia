@@ -166,20 +166,15 @@ body {
 }
 
 .carousel-inner {
-  width: 400px;
-  height: 500px;
-  margin-right: 80px;
-  margin-top: 10px;
-}
-.carousel-slide {
-  width: 300px;
-  margin-right: 170px;
-}
-.d-block {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 465px;
+  margin-top: 20px;
+  margin-right: 70px;
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 3px;
+}
+.carousel-control-next {
+  margin-right: 70px;
 }
 
 .biography p {
@@ -195,12 +190,6 @@ body {
 .biography h2 {
   margin-bottom: 20px;
   font-size: 60px;
-}
-.carousel-control-next {
-  margin-right: 5px;
-}
-.carousel-control-prev {
-  margin-left: 80px;
 }
 .horario {
   width: 500px;
@@ -316,8 +305,21 @@ body {
   font-size: 50px;
   margin-top: 40px;
 }
-.carousel-photo {
-  width: 800px;
+.carousel-inner-alone {
+  width: 600px;
+  background-color: #96826a;
+}
+
+.d-block-alone {
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+#next {
+  margin-right: -100px;
+}
+#prev {
+  margin-left: -100px;
 }
 
 .footer {
@@ -504,10 +506,9 @@ body {
   .carousel-control-prev {
     display: flex;
     justify-content: center;
-    left: -11%;
+    left: -240%;
     top: 70%;
     height: 30px;
-    background: transparent;
   }
   .carousel-control-next {
     display: flex;
@@ -710,7 +711,7 @@ body {
   .carousel-control-prev {
     display: flex;
     justify-content: center;
-    left: -2%;
+    left: -197%;
     top: 70%;
     height: 30px;
     background: transparent;
@@ -718,7 +719,7 @@ body {
   .carousel-control-next {
     display: flex;
     justify-content: center;
-    left: 65%;
+    left: 67%;
     top: 70%;
     height: 30px;
   }
@@ -917,7 +918,7 @@ body {
   .carousel-control-prev {
     display: flex;
     justify-content: center;
-    left: 4%;
+    left: -168%;
     top: 70%;
     height: 30px;
   }
@@ -1088,10 +1089,6 @@ body {
     height: 100%;
     display: flex;
   }
-  .carousel-slide {
-    width: 300px;
-    margin-right: 30px;
-  }
 
   .biography p {
     max-width: 300px;
@@ -1104,36 +1101,6 @@ body {
     width: 300px;
     margin-left: 55px;
     margin-top: 10px;
-  }
-  .d-block {
-    width: 230px;
-    height: 310px;
-    background-color: #ffffff;
-    margin-left: 53px;
-    border-radius: 5px;
-    border: 1px solid black;
-  }
-  .carousel-inner {
-    width: 310px;
-    height: 100%;
-    margin-bottom: 15px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .carousel-control-prev {
-    display: flex;
-    justify-content: center;
-    left: 49%;
-    top: 45%;
-    height: 30px;
-  }
-  .carousel-control-next {
-    display: flex;
-    justify-content: center;
-    left: 84%;
-    top: 45%;
-    height: 30px;
   }
   .biography h2 {
     font-size: 45px;

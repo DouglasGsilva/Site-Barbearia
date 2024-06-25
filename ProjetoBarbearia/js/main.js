@@ -4,6 +4,8 @@ const btnFechar = document.querySelector(".btn-fechar");
 const linkCad = document.querySelector("#link-cad");
 const fade = document.querySelector(".modal-fade");
 
+const images = document.querySelector(".carousel-item");
+
 openCad.addEventListener("click", () => {
   modal.style.display = "block";
   modal.style.position = "fixed";
