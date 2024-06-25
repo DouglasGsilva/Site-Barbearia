@@ -173,11 +173,13 @@ body {
 }
 .carousel-slide {
   width: 300px;
+  margin-right: 170px;
 }
 .d-block {
   width: 400px;
   height: 500px;
-  background-color: #ffffff;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 .biography p {
@@ -195,7 +197,10 @@ body {
   font-size: 60px;
 }
 .carousel-control-next {
-  margin-right: 70px;
+  margin-right: 5px;
+}
+.carousel-control-prev {
+  margin-left: 80px;
 }
 .horario {
   width: 500px;
@@ -319,8 +324,8 @@ body {
   width: 100%;
   height: 150px;
   background-color: #f2f2f2;
-  display: grid;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .svg-center {
@@ -328,10 +333,13 @@ body {
   justify-content: center;
   align-items: center;
   justify-content: space-between;
-  width: 1000px;
+  width: 300px;
+  margin-left: 50px;
 }
 #centerFinalText {
   margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 30px;
 }
 .imgLogin {
   width: 60px;
@@ -351,7 +359,7 @@ body {
   margin-left: 5px;
 }
 
-@media (min-width: 0px) and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .navbar {
     width: 100%;
     height: 105px;
@@ -496,14 +504,427 @@ body {
   .carousel-control-prev {
     display: flex;
     justify-content: center;
+    left: -11%;
+    top: 70%;
+    height: 30px;
+    background: transparent;
+  }
+  .carousel-control-next {
+    display: flex;
+    justify-content: center;
+    left: 70%;
+    top: 70%;
+    height: 30px;
+  }
+  .biography h2 {
+    font-size: 45px;
+  }
+
+  .title-imagens h1 {
+    font-size: 25px;
+  }
+  .fotos {
+    height: 200px;
+  }
+
+  .carousel-photo {
+    width: 260px;
+    margin-right: 105px;
+  }
+  #centerFinalText {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .svg-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 220px;
+    margin-left: 10px;
+  }
+  #sizeInstagram {
+    width: 35px;
+  }
+  #sizeWhats {
+    width: 35px;
+  }
+  .modal-Content {
+    left: 7%;
+  }
+  #height {
+    height: 200px;
+  }
+  #carouselExampleDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;
+    margin-right: 10px;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+  .navbar {
+    width: 100%;
+    height: 105px;
+  }
+  .navbar-brand img {
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    margin-left: 40px;
+  }
+  .showLogin {
+    position: absolute;
+    display: grid;
+    left: 5%;
+  }
+
+  .showLogin p {
+    font-size: 10px;
+  }
+
+  .imgLogin {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+
+  #nome-banner {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    left: 15%;
+    top: 35%;
+    height: 50px;
+  }
+
+  .center-btn {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+  }
+  .btn {
+    font-size: 10px;
+    border-radius: 1px;
+    background-color: #000;
+    border-color: #000;
+  }
+  .btn:hover {
+    border: 1px solid white;
+    background-color: #f2f2f2;
+    transition: all 0.8s;
+    color: #000;
+  }
+  #titulo-horario {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .horario {
+    width: 100%;
+  }
+  #dias {
+    font-size: 15px;
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  .title-servicos h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  .container-all-cards {
+    width: 100%;
+  }
+
+  .card {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  .card-back p {
+    text-align: center;
+    font-size: 6.4px;
+  }
+  .card-front img {
+    width: 70px;
+    transform: rotate(100deg);
+  }
+  #maquina-img {
+    width: 70px;
+    transform: rotate(0deg);
+  }
+  #barba-img {
+    margin-top: 10px;
+    max-width: 97px;
+    transform: rotate(0deg);
+  }
+  .content-bio-slide {
+    width: 100%;
+    height: 100%;
+    display: grid;
+  }
+  .carousel-slide {
+    width: 300px;
+  }
+
+  .biography p {
+    max-width: 300px;
+    font-size: 9px;
+    margin-top: 20px;
+  }
+
+  .biography {
+    height: 100%;
+    width: 300px;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+  .d-block {
+    width: 210px;
+    height: 300px;
+    background-color: #ffffff;
+    margin-left: 60px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  .carousel-inner {
+    width: 310px;
+    height: 300px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+  }
+
+  .carousel-control-prev {
+    display: flex;
+    justify-content: center;
+    left: -2%;
+    top: 70%;
+    height: 30px;
+    background: transparent;
+  }
+  .carousel-control-next {
+    display: flex;
+    justify-content: center;
+    left: 65%;
+    top: 70%;
+    height: 30px;
+  }
+  .biography h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .title-imagens h1 {
+    font-size: 25px;
+  }
+  .fotos {
+    height: 200px;
+  }
+
+  .carousel-photo {
+    width: 260px;
+    margin-right: 105px;
+  }
+  #centerFinalText {
+    font-size: 15px;
+    text-align: center;
+  }
+  .svg-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 220px;
+    margin-left: 10px;
+  }
+  #sizeInstagram {
+    width: 35px;
+  }
+  #sizeWhats {
+    width: 35px;
+  }
+  .modal-Content {
     left: 13%;
+  }
+  #height {
+    height: 200px;
+  }
+  #carouselExampleDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .navbar {
+    width: 100%;
+    height: 105px;
+  }
+  .navbar-brand img {
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    margin-left: 50px;
+  }
+  .showLogin {
+    position: absolute;
+    display: grid;
+    left: 2%;
+  }
+
+  .showLogin p {
+    font-size: 10px;
+  }
+
+  .imgLogin {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+
+  #nome-banner {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    left: 20%;
+    top: 40%;
+    height: 50px;
+  }
+
+  .center-btn {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+  }
+  .btn {
+    font-size: 10px;
+    border-radius: 1px;
+    background-color: #000;
+    border-color: #000;
+  }
+  .btn:hover {
+    border: 1px solid white;
+    background-color: #f2f2f2;
+    transition: all 0.8s;
+    color: #000;
+  }
+  #titulo-horario {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .horario {
+    width: 100%;
+  }
+  #dias {
+    font-size: 15px;
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  .title-servicos h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  .container-all-cards {
+    width: 100%;
+  }
+
+  .card {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  .card-back p {
+    text-align: center;
+    font-size: 6.4px;
+  }
+  .card-front img {
+    width: 70px;
+    transform: rotate(100deg);
+  }
+  #maquina-img {
+    width: 70px;
+    transform: rotate(0deg);
+  }
+  #barba-img {
+    margin-top: 10px;
+    max-width: 97px;
+    transform: rotate(0deg);
+  }
+  .content-bio-slide {
+    width: 100%;
+    height: 100%;
+    display: grid;
+  }
+  .carousel-slide {
+    width: 300px;
+  }
+
+  .biography p {
+    max-width: 300px;
+    font-size: 9px;
+    margin-top: 20px;
+  }
+
+  .biography {
+    height: 100%;
+    width: 300px;
+    margin-left: 65px;
+    margin-top: 10px;
+  }
+  .d-block {
+    width: 210px;
+    height: 300px;
+    background-color: #ffffff;
+    margin-left: 53px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  .carousel-inner {
+    width: 310px;
+    height: 300px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+  }
+
+  .carousel-control-prev {
+    display: flex;
+    justify-content: center;
+    left: 4%;
     top: 70%;
     height: 30px;
   }
   .carousel-control-next {
     display: flex;
     justify-content: center;
-    left: 70%;
+    left: 65%;
     top: 70%;
     height: 30px;
   }
@@ -531,7 +952,9 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    width: 220px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 10px;
   }
   #sizeInstagram {
     width: 35px;
@@ -540,7 +963,7 @@ body {
     width: 35px;
   }
   .modal-Content {
-    left: 7%;
+    left: 17%;
   }
   #height {
     height: 200px;
@@ -550,5 +973,210 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 320px;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    height: 120px;
+  }
+  .navbar-brand img {
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin-left: 85px;
+  }
+  .img-fluid {
+    height: 500px;
+  }
+  .showLogin {
+    position: absolute;
+    display: grid;
+    left: 2%;
+  }
+
+  .showLogin p {
+    font-size: 10px;
+  }
+
+  .imgLogin {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+
+  #nome-banner {
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    color: #000;
+    left: 27%;
+    top: 55%;
+    height: 50px;
+  }
+
+  .center-btn {
+    position: absolute;
+    top: 80%;
+    left: 37%;
+  }
+  .btn {
+    font-size: 20px;
+    border-radius: 1px;
+    background-color: #000;
+    border-color: #000;
+  }
+  .btn:hover {
+    border: 1px solid white;
+    background-color: #f2f2f2;
+    transition: all 0.8s;
+    color: #000;
+  }
+  #titulo-horario {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .horario {
+    width: 500px;
+  }
+  #dias {
+    font-size: 20px;
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  .title-servicos h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .container-all-cards {
+    width: 100%;
+  }
+
+  .card {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+  }
+  .card-back p {
+    text-align: center;
+    font-size: 10px;
+  }
+  .card-front img {
+    width: 90px;
+    transform: rotate(100deg);
+  }
+  #maquina-img {
+    width: 90px;
+    transform: rotate(0deg);
+  }
+  #barba-img {
+    margin-top: 10px;
+    max-width: 200px;
+    transform: rotate(0deg);
+  }
+  .content-bio-slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  .carousel-slide {
+    width: 300px;
+    margin-right: 30px;
+  }
+
+  .biography p {
+    max-width: 300px;
+    font-size: 11px;
+    margin-top: 20px;
+  }
+
+  .biography {
+    height: 100%;
+    width: 300px;
+    margin-left: 55px;
+    margin-top: 10px;
+  }
+  .d-block {
+    width: 230px;
+    height: 310px;
+    background-color: #ffffff;
+    margin-left: 53px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  .carousel-inner {
+    width: 310px;
+    height: 100%;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-control-prev {
+    display: flex;
+    justify-content: center;
+    left: 49%;
+    top: 45%;
+    height: 30px;
+  }
+  .carousel-control-next {
+    display: flex;
+    justify-content: center;
+    left: 84%;
+    top: 45%;
+    height: 30px;
+  }
+  .biography h2 {
+    font-size: 45px;
+  }
+
+  .title-imagens h1 {
+    font-size: 40px;
+  }
+  .fotos {
+    height: 350px;
+  }
+
+  .carousel-photo {
+    width: 550px;
+    margin-right: 105px;
+  }
+  #centerFinalText {
+    font-size: 15px;
+    text-align: center;
+  }
+  .svg-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 220px;
+  }
+  #sizeInstagram {
+    width: 35px;
+  }
+  #sizeWhats {
+    width: 35px;
+  }
+  .modal-Content {
+    left: 35%;
+  }
+  #height {
+    height: 300px;
+  }
+  #carouselExampleDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
   }
 }
