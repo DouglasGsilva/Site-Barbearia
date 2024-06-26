@@ -848,13 +848,13 @@ body {
     font-size: 40px;
     color: #000;
     left: 20%;
-    top: 40%;
+    top: 30%;
     height: 50px;
   }
 
   .center-btn {
     position: absolute;
-    top: 55%;
+    top: 45%;
     left: 35%;
   }
   .btn {
