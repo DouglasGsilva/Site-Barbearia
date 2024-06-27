@@ -193,11 +193,12 @@ body {
 .biography p {
   margin-top: 50px;
   width: 700px;
+  font-size: 13px;
 }
 .biography {
   height: 500px;
   text-align: center;
-  margin-left: 150px;
+  margin-left: 130px;
   margin-top: 60px;
 }
 .biography h2 {
