@@ -428,7 +428,7 @@ body {
     text-align: center;
     font-size: 40px;
     color: #000;
-    left: 25px;
+    left: 27px;
     top: 180px;
     height: 50px;
   }
@@ -436,7 +436,7 @@ body {
   .center-btn {
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 33%;
   }
   .btn {
     font-size: 10px;
@@ -455,6 +455,7 @@ body {
 
   .horario {
     width: 100%;
+    height: 260px;
   }
   #dias {
     font-size: 15px;
