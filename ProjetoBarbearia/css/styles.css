@@ -668,6 +668,7 @@ body {
 
   .horario {
     width: 100%;
+    height: 260px;
   }
   #dias {
     font-size: 15px;
@@ -716,7 +717,9 @@ body {
     display: grid;
     height: 100%;
   }
-
+  #carouselExample {
+    margin-left: 40px;
+  }
   .carousel-inner {
     margin: auto;
     justify-content: center;
@@ -730,10 +733,10 @@ body {
     height: 261px;
   }
   .carousel-control-prev {
-    margin-left: 80px;
+    margin-left: 50px;
   }
   .carousel-control-next {
-    margin-right: 80px;
+    margin-right: 50px;
   }
   .biography p {
     max-width: 300px;
