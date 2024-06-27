@@ -49,7 +49,7 @@ body {
 .center-btn {
   position: absolute;
   top: 110%;
-  left: 38%;
+  left: 39%;
 }
 #nome-banner {
   position: absolute;
@@ -57,7 +57,7 @@ body {
   font-size: 80px;
   color: #000;
   bottom: -20px;
-  left: 370px;
+  left: 375px;
 }
 .btn {
   font-size: 30px;
